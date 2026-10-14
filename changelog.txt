@@ -1,19 +1,14 @@
 ---------------------------------------------------------------------------------------------------
-Version: 3.0.0
-Date: 2026-02-14
+Version: 1.0.0
+Date: 2026-10-15
+  Features:
+    - Fork No Power Drains 3.1.0 with the original startup setting keys and behavior for supported electric entities.
+  Bugfixes:
+    - Include complete English and Russian names and descriptions for all ten startup settings.
+    - Restrict drain, usage and radar scan-energy reductions to electric prototypes; preserve burner and void-powered entities.
   Changes:
-    - Added startup setting to only remove radar drain for radars with no extra scan range over vision.
-    - Clarified radar setting text to match scan-range vs vision-range behavior.
-
----------------------------------------------------------------------------------------------------
-Version: 2.0.3
-Date: 2025-11-18
-  Bugfix:
-    - Fixed radars again
-
----------------------------------------------------------------------------------------------------
-Version: 2.0.2
-Date: 2025-11-18
-  Bugfix:
-    - Fixed that mod stopped working for some machines. Adapted to drains removial in base game.
----------------------------------------------------------------------------------------------------
+    - Clarify settings which reduce working consumption in addition to idle drain.
+    - Use a local returned settings table and iterate only supported prototype categories.
+  Info:
+    - Validated on Factorio 2.0.77: 13 settings configurations, 416 prototype checks and eight powered entity types in an isolated copied-save runtime test.
+    - Disable lordodin_no_drains before enabling this fork. Existing entities are retained; startup changes require a restart.

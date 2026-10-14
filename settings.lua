@@ -1,5 +1,5 @@
 -- settings.lua
-require("tables") -- Load the type_drains table
+local type_drains = require("tables") -- Load the type_drains table
 
 data:extend(
     (function()

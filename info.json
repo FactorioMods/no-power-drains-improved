@@ -1,14 +1,14 @@
 {
   "name": "no-power-drains-improved",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "No Power Drains: Improved",
   "author": "johnmart19 (fork), LordOdin / yuyaryshev (original)",
   "homepage": "https://github.com/FactorioMods/no-power-drains-improved",
   "description": "Configurable electric idle-drain removal with complete English/Russian setting labels, accurate power-usage tooltips and electric-only compatibility fixes. Preserves existing setting keys; includes selective radar power reduction.",
   "dependencies": [
-    "base >= 2.0.77",
+    "base >= 2.1.23",
     "? Krastorio2",
     "! lordodin_no_drains"
   ],
-  "factorio_version": "2.0"
+  "factorio_version": "2.1"
 }
